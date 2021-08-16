@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.searchBar {
+  display: block;
+  width: 70%;
+  margin: 20px;
+  padding: 5px 5px;
+  border-radius: 3px;
+  border: 2px solid#c9c8c5;
+}
+
+body {
+  background-color: #f3f3f3;
+}
+
+.card:hover {
+  border: 3px solid #b2b1ad;
+}
+
+.form-control {
+  width: 700px;
+}
+
+.image {
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+}
+.recipe-text {
+  color: #989796;
+}
+
+.warning {
+  color: red
+}
+
+.label {
+  font-size: large;
+  color: #9b9b9b
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
