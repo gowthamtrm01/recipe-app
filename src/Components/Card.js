@@ -96,7 +96,7 @@ function CardComponent({ recipe, index }) {
             onClick={() => {
               axios.delete(`https://recipe-by-gowtham.herokuapp.com/recipe/delete/${recipe._id}`).then((res) => dispatch({
                 type: "DELETE-RECIPE",
-                id: res._id
+                id: res.data._id
               }))
             }}
           >

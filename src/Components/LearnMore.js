@@ -27,7 +27,7 @@ export default function LearnMore() {
                         <li className="list-group-item">
                             <h4>Recipe Ingerdients:</h4>
                             <ul className="list-group">
-                                {recipe.ingerdients.map((item, index) => <li key={index} className="list-group-item"><h5 className="recipe-text">{item}</h5></li>)}
+                                {recipe.ingredients.map((item, index) => <li key={index} className="list-group-item"><h5 className="recipe-text">{item}</h5></li>)}
                             </ul>
                         </li>
                         <li className="list-group-item">
