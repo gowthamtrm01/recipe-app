@@ -22,7 +22,6 @@ function reducer(state, action) {
     case "ADD-RECIPE":
       return [...state, action.payload];
     case "DELETE-RECIPE":
-      console.log(action);
       return state.filter((recipe) => recipe._id !== action.id);
     case "INGREDIENTS-DROP-DOWN":
       return state.map((item) => {
